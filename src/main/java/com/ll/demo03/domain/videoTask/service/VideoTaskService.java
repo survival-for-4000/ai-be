@@ -2,6 +2,8 @@ package com.ll.demo03.domain.videoTask.service;
 
 import com.ll.demo03.domain.image.entity.Image;
 import com.ll.demo03.domain.image.repository.ImageRepository;
+import com.ll.demo03.domain.member.entity.Member;
+import com.ll.demo03.domain.member.repository.MemberRepository;
 import com.ll.demo03.domain.sse.repository.SseEmitterRepository;
 import com.ll.demo03.domain.task.dto.AckInfo;
 import com.ll.demo03.domain.upscaledTask.dto.UpscaleImageUrlResponse;
@@ -17,12 +19,10 @@ import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
-import java.io.IOException;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 @Service
 @Slf4j
@@ -30,9 +30,9 @@ import java.util.concurrent.ConcurrentHashMap;
 public class VideoTaskService {
 
     private final VideoTaskRepository videoTaskRepository;
-    private final Map<String, AckInfo> pendingAcks = new ConcurrentHashMap<>();
     private final ImageRepository imageRepository;
     private final SseEmitterRepository sseEmitterRepository;
+    private final MemberRepository memberRepository;
 
     @Value("${piapi.api.key}")
     private String piApiKey;
@@ -71,6 +71,18 @@ public class VideoTaskService {
         }
     }
 
+    public void saveVideoTask(String taskId, Long memberId) {
+        Member member = memberRepository.findById(memberId)
+                .orElseThrow(() -> new EntityNotFoundException("Member not found: " + memberId));
+
+        VideoTask videoTask = new VideoTask();
+        videoTask.setTaskId(taskId);
+        videoTask.setMember(member);
+
+        videoTaskRepository.save(videoTask);
+        log.info("VideoTask 저장 완료: taskId={}, memberId={}", taskId, memberId);
+    }
+
     public void processWebhookEvent(VideoWebhookEvent event) {
         log.info("동영상 웹훅 이벤트 수신: {}", event.getData().getTaskId());
 
@@ -88,13 +100,37 @@ public class VideoTaskService {
                 return;
             }
 
+            // 1️⃣ DB 저장 (비동기 처리)
+            saveVideoToDatabase(taskId, videoUrl);
+
+            // 2️⃣ SSE 전송 (비동기 처리)
+            notifyClient(taskId, videoUrl);
+
+        } catch (Exception e) {
+            log.error("동영상 웹훅 이벤트 처리 중 오류 발생: {}", e.getMessage(), e);
+        }
+    }
+
+    @Async
+    public void saveVideoToDatabase(String taskId, String videoUrl) {
+        try {
             VideoTask videoTask = videoTaskRepository.findByTaskId(taskId)
                     .orElseThrow(() -> new EntityNotFoundException("Video task not found"));
-
 
             Image image = Image.ofVideo(videoUrl, videoTask);
             image.setImgIndex(0);
             imageRepository.save(image);
+            log.info("✅ DB 저장 완료: taskId={}, videoUrl={}", taskId, videoUrl);
+        } catch (Exception e) {
+            log.error("DB 저장 중 오류 발생: {}", e.getMessage(), e);
+        }
+    }
+
+    @Async
+    public void notifyClient(String taskId, String videoUrl) {
+        try {
+            VideoTask videoTask = videoTaskRepository.findByTaskId(taskId)
+                    .orElseThrow(() -> new EntityNotFoundException("Video task not found"));
 
             Long memberId = videoTask.getMember().getId();
             String memberIdStr = String.valueOf(memberId);
@@ -105,13 +141,8 @@ public class VideoTaskService {
                 UpscaleImageUrlResponse response = new UpscaleImageUrlResponse(videoUrl, taskId);
 
                 try {
-                    emitter.send(SseEmitter.event()
-                            .name("result")
-                            .data(response));
-
-                    log.info("클라이언트에게 동영상 이미지 URL 전송 완료: {}, memberId: {}", taskId, memberId);
-
-                    acknowledgeTask(taskId);
+                    emitter.send(SseEmitter.event().name("result").data(response));
+                    log.info("✅ 클라이언트 SSE 전송 완료: {}, memberId: {}", taskId, memberId);
 
                     emitter.complete();
                     sseEmitterRepository.removeTaskMapping(taskId);
@@ -120,25 +151,10 @@ public class VideoTaskService {
                     sseEmitterRepository.remove(memberIdStr);
                 }
             } else {
-                log.warn("해당 사용자 ID에 대한 SSE 연결이 없습니다: {}, taskId: {}", memberId, taskId);
+                log.warn("❗ SSE 연결 없음: memberId={}, taskId={}", memberId, taskId);
             }
         } catch (Exception e) {
-            log.error("동영상 웹훅 이벤트 처리 중 오류 발생: {}", e.getMessage(), e);
-        }
-    }
-
-    public void acknowledgeTask(String taskId) {
-        AckInfo ackInfo = pendingAcks.remove(taskId);
-        if (ackInfo != null) {
-            try {
-                ackInfo.getChannel().basicAck(ackInfo.getDeliveryTag(), false);
-                log.info("Task acknowledged: {}", taskId);
-            } catch (IOException e) {
-                log.error("Failed to acknowledge task: {}", taskId, e);
-                pendingAcks.put(taskId, ackInfo);
-            }
-        } else {
-            log.warn("Attempted to acknowledge unknown task: {}", taskId);
+            log.error("SSE 알림 전송 중 오류 발생: {}", e.getMessage(), e);
         }
     }
 }
