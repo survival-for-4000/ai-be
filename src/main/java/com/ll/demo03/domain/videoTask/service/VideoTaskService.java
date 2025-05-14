@@ -61,7 +61,7 @@ public class VideoTaskService {
         }
     }
 
-    public void saveVideoTask(String taskId, Long memberId) {
+    public VideoTask saveVideoTask(String taskId, Long memberId) {
         Member member = memberRepository.findById(memberId)
                 .orElseThrow(() -> new EntityNotFoundException("Member not found: " + memberId));
 
@@ -71,5 +71,6 @@ public class VideoTaskService {
 
         videoTaskRepository.save(videoTask);
         log.info("VideoTask 저장 완료: taskId={}, memberId={}", taskId, memberId);
+        return videoTask;
     }
 }
