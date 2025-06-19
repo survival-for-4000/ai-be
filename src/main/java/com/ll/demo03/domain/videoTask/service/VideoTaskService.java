@@ -15,6 +15,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Base64;
+
 
 @Service
 @Slf4j
@@ -27,22 +31,34 @@ public class VideoTaskService {
     @Value("${piapi.api.key}")
     private String piApiKey;
 
-    public String createVideo( String imageUrl, String prompt,  String webhook) {
+    public String createVideo(String imageUrl, String prompt, String webhook) {
         try {
-
-            Unirest.setTimeouts(0, 0);
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = (HttpResponse<String>) Unirest.post("https://api.piapi.ai/api/v1/task")
                     .header("x-api-key", piApiKey)
                     .header("Content-Type", "application/json")
                     .body("{\n" +
-                            "    \"model\": \"hailuo\",\n" +
+                            "    \"model\": \"kling\",\n" +
                             "    \"task_type\": \"video_generation\",\n" +
                             "    \"input\": {\n" +
                             "        \"prompt\": \"" + prompt + "\",\n" +
-                            "        \"model\": \"i2v-01\",\n" +
+                            "        \"negative_prompt\": \"\",\n" +
+                            "        \"cfg_scale\": 0.5,\n" +
+                            "        \"duration\": 5,\n" +
+                            "        \"aspect_ratio\": \"1:1\",\n" +
                             "        \"image_url\": \"" + imageUrl + "\",\n" +
-                            "        \"expand_prompt\": true\n" +
+                            "        \"camera_control\": {\n" +
+                            "            \"type\": \"simple\",\n" +
+                            "            \"config\": {\n" +
+                            "                \"horizontal\": 0,\n" +
+                            "                \"vertical\": 0,\n" +
+                            "                \"pan\": -10,\n" +
+                            "                \"tilt\": 0,\n" +
+                            "                \"roll\": 0,\n" +
+                            "                \"zoom\": 0\n" +
+                            "            }\n" +
+                            "        },\n" +
+                            "        \"mode\": \"std\"\n" +
                             "    },\n" +
                             "    \"config\": {\n" +
                             "        \"service_mode\": \"public\",\n" +
