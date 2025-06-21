@@ -15,10 +15,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Base64;
-
 
 @Service
 @Slf4j
@@ -77,12 +73,13 @@ public class VideoTaskService {
         }
     }
 
-    public VideoTask saveVideoTask(String taskId, Long memberId) {
+    public VideoTask saveVideoTask(String taskId, String prompt, Long memberId) {
         Member member = memberRepository.findById(memberId)
                 .orElseThrow(() -> new EntityNotFoundException("Member not found: " + memberId));
 
         VideoTask videoTask = new VideoTask();
         videoTask.setTaskId(taskId);
+        videoTask.setPrompt(prompt);
         videoTask.setMember(member);
 
         videoTaskRepository.save(videoTask);
