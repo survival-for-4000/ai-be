@@ -46,6 +46,9 @@ public class Image extends BaseEntity {
     @Builder.Default
     private Boolean isShared = false;
 
+    @Version
+    private Long version;
+
 //    @Builder.Default
 //    private Boolean isUpscaled = false;
 

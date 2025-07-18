@@ -112,7 +112,7 @@ public class ImageWebhookProcessor implements WebhookProcessor<ImageWebhookEvent
             String imageUrl = (String) resourceData;
 
             ImageTask imageTask = imageTaskRepository.findById(taskIdLong)
-                    .orElseThrow(() -> new EntityNotFoundException("Video task not found"));
+                    .orElseThrow(() -> new EntityNotFoundException("Image task not found"));
 
             Image video = Image.of(imageUrl, imageTask);
             video.setImgIndex(0);
@@ -168,7 +168,7 @@ public class ImageWebhookProcessor implements WebhookProcessor<ImageWebhookEvent
                         .payload(payloadMap)
                         .build();
 
-                String redisKey = "notification:video:" + memberIdStr;
+                String redisKey = "notification:image:" + memberIdStr;
                 String notificationJson = objectMapper.writeValueAsString(dto);
                 redisTemplate.opsForValue().set(redisKey, notificationJson);
 

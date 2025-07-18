@@ -14,7 +14,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "user_like")
+@Table(name = "user_like", uniqueConstraints = @UniqueConstraint(columnNames = {"user_id", "image_id"}))
 public class Like extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id") //FK 컬럼명

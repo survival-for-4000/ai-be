@@ -15,6 +15,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Slice;
 import org.springframework.data.domain.SliceImpl;
@@ -38,21 +39,21 @@ public class LikeService {
 
     @Transactional
     public void addLike(Long imageId, Member member) {
-        Image image = imageRepository.findById(imageId)
-                .orElseThrow(() -> new CustomException(ErrorCode.ENTITY_NOT_FOUND));
+        try {
+            Image image = imageRepository.findById(imageId)
+                    .orElseThrow(() -> new CustomException(ErrorCode.ENTITY_NOT_FOUND));
 
-        boolean alreadyLiked = likeRepository.existsByMemberIdAndImageId(member.getId(), imageId);
-        if (alreadyLiked) {
+            Like like = new Like();
+            like.setMember(member);
+            like.setImage(image);
+            likeRepository.save(like);
+
+            image.setLikeCount(image.getLikeCount() + 1);
+            imageRepository.save(image);
+        }catch (DataIntegrityViolationException e) {
+            // 이미 좋아요 눌렀다면 아무 일도 하지 않음 or 에러 반환
             throw new CustomException(ErrorCode.DUPLICATED_METHOD);
         }
-
-        Like like = new Like();
-        like.setMember(member);
-        like.setImage(image);
-        likeRepository.save(like);
-
-        image.setLikeCount(image.getLikeCount() + 1);
-        imageRepository.save(image);
     }
 
     @Transactional
