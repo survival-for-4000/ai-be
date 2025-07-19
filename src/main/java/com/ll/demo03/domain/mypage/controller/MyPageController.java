@@ -26,18 +26,17 @@ import java.util.Map;
 @RequestMapping("/api/images")
 @RequiredArgsConstructor
 public class MyPageController {
-    private final MyPageService myPageService;
 
+    private final MyPageService myPageService;
     @GetMapping("/mypage")
     public ResponseEntity<PageResponse<List<ImageResponse>>> getMyImages(
             @AuthenticationPrincipal PrincipalDetails principalDetails,
             CursorBasedPageable cursorBasedPageable,
-            @RequestParam(required = false) String type
+            @RequestParam(name = "type", required = false) String type
     ) {
         Member member = principalDetails.user();
-
-        PageResponse<List<ImageResponse>> mypage=myPageService.getMyImages(member, cursorBasedPageable, type);
-        return ResponseEntity.ok( mypage);
+        PageResponse<List<ImageResponse>> mypage = myPageService.getMyImages(member, cursorBasedPageable, type);
+        return ResponseEntity.ok(mypage);
     }
 
     @DeleteMapping("/mypage")

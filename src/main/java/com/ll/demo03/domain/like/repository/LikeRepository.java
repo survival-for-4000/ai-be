@@ -23,7 +23,10 @@ public interface LikeRepository extends JpaRepository<Like, Long>, JpaSpecificat
     Slice<Like> findByMember(Member member, Specification<Like> specification, Pageable pageable);
 
     @Query("SELECT l.image.id FROM Like l WHERE l.image.id IN :imageIds AND l.member.id = :memberId")
-    Set<Long> findImageIdsByImageIdInAndMemberId(List<Long> imageIds, Long memberId);
+    Set<Long> findImageIdsByImageIdInAndMemberId(
+            @Param("imageIds") List<Long> imageIds,
+            @Param("memberId") Long memberId
+    );
 
     @Query("SELECT l.image.id FROM Like l WHERE l.member.id = :memberId AND l.image.id IN :imageIds")
     List<Long> findLikedImageIdsByMemberIdAndImageIds(
