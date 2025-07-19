@@ -1,6 +1,5 @@
-package com.ll.demo03.domain.videoLora.entity;
+package com.ll.demo03.domain.lora.entity;
 
-import com.ll.demo03.global.base.BaseEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,5 +18,12 @@ public class Lora {
     private String name;
 
     @Enumerated(EnumType.STRING)
-    private Type type;
+    private MediaType mediaType;
+
+    @Enumerated(EnumType.STRING)
+    private StyleType styleType;
+
+    private String image;
+
+    private String modelName;
 }
