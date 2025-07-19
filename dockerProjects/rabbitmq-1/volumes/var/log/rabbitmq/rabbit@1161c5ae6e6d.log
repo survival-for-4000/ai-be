@@ -119,12 +119,12 @@
 2025-03-28 12:25:08.710357+00:00 [info] <0.546.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-28 12:25:08.720700+00:00 [info] <0.546.0> Setting segment_entry_count for vhost '/' with 0 queues to '2048'
 2025-03-28 12:25:08.748220+00:00 [info] <0.546.0> Starting message stores for vhost '/'
-2025-03-28 12:25:08.754764+00:00 [info] <0.546.0> Started message store of type transient for vhost '/'
+2025-03-28 12:25:08.754764+00:00 [info] <0.546.0> Started message store of mediaType transient for vhost '/'
 2025-03-28 12:25:08.756790+00:00 [warning] <0.560.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-28 12:25:08.761282+00:00 [info] <0.546.0> Started message store of type persistent for vhost '/'
-2025-03-28 12:25:08.761394+00:00 [info] <0.546.0> Recovering 0 queues of type rabbit_classic_queue took 36ms
-2025-03-28 12:25:08.761426+00:00 [info] <0.546.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-28 12:25:08.761454+00:00 [info] <0.546.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-28 12:25:08.761282+00:00 [info] <0.546.0> Started message store of mediaType persistent for vhost '/'
+2025-03-28 12:25:08.761394+00:00 [info] <0.546.0> Recovering 0 queues of mediaType rabbit_classic_queue took 36ms
+2025-03-28 12:25:08.761426+00:00 [info] <0.546.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-28 12:25:08.761454+00:00 [info] <0.546.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-28 12:25:08.763566+00:00 [info] <0.216.0> Created user 'admin'
 2025-03-28 12:25:08.764452+00:00 [info] <0.216.0> Successfully set user tags for user 'admin' to [administrator]
 2025-03-28 12:25:08.765377+00:00 [info] <0.216.0> Successfully set permissions for user 'admin' in virtual host '/' to '.*', '.*', '.*'
@@ -271,12 +271,12 @@
 2025-03-28 12:25:53.479548+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-03-28 12:25:53.497646+00:00 [info] <0.445.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-28 12:25:53.531366+00:00 [info] <0.445.0> Starting message stores for vhost '/'
-2025-03-28 12:25:53.545220+00:00 [info] <0.445.0> Started message store of type transient for vhost '/'
+2025-03-28 12:25:53.545220+00:00 [info] <0.445.0> Started message store of mediaType transient for vhost '/'
 2025-03-28 12:25:53.547212+00:00 [warning] <0.459.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-28 12:25:53.552809+00:00 [info] <0.445.0> Started message store of type persistent for vhost '/'
-2025-03-28 12:25:53.552949+00:00 [info] <0.445.0> Recovering 0 queues of type rabbit_classic_queue took 44ms
-2025-03-28 12:25:53.553018+00:00 [info] <0.445.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-28 12:25:53.553083+00:00 [info] <0.445.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-28 12:25:53.552809+00:00 [info] <0.445.0> Started message store of mediaType persistent for vhost '/'
+2025-03-28 12:25:53.552949+00:00 [info] <0.445.0> Recovering 0 queues of mediaType rabbit_classic_queue took 44ms
+2025-03-28 12:25:53.553018+00:00 [info] <0.445.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-28 12:25:53.553083+00:00 [info] <0.445.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-28 12:25:53.554600+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-03-28 12:25:53.554650+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-03-28 12:25:53.554707+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -421,12 +421,12 @@
 2025-03-28 12:26:45.638934+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-03-28 12:26:45.657542+00:00 [info] <0.420.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-28 12:26:45.696355+00:00 [info] <0.420.0> Starting message stores for vhost '/'
-2025-03-28 12:26:45.712686+00:00 [info] <0.420.0> Started message store of type transient for vhost '/'
+2025-03-28 12:26:45.712686+00:00 [info] <0.420.0> Started message store of mediaType transient for vhost '/'
 2025-03-28 12:26:45.715120+00:00 [warning] <0.434.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-28 12:26:45.721523+00:00 [info] <0.420.0> Started message store of type persistent for vhost '/'
-2025-03-28 12:26:45.721681+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_classic_queue took 51ms
-2025-03-28 12:26:45.721730+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-28 12:26:45.721768+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-28 12:26:45.721523+00:00 [info] <0.420.0> Started message store of mediaType persistent for vhost '/'
+2025-03-28 12:26:45.721681+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_classic_queue took 51ms
+2025-03-28 12:26:45.721730+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-28 12:26:45.721768+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-28 12:26:45.723840+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-03-28 12:26:45.723912+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-03-28 12:26:45.724018+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -571,12 +571,12 @@
 2025-03-28 12:27:29.346493+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-03-28 12:27:29.364634+00:00 [info] <0.420.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-28 12:27:29.399574+00:00 [info] <0.420.0> Starting message stores for vhost '/'
-2025-03-28 12:27:29.414074+00:00 [info] <0.420.0> Started message store of type transient for vhost '/'
+2025-03-28 12:27:29.414074+00:00 [info] <0.420.0> Started message store of mediaType transient for vhost '/'
 2025-03-28 12:27:29.416179+00:00 [warning] <0.434.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-28 12:27:29.423344+00:00 [info] <0.420.0> Started message store of type persistent for vhost '/'
-2025-03-28 12:27:29.423496+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_classic_queue took 48ms
-2025-03-28 12:27:29.423541+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-28 12:27:29.423597+00:00 [info] <0.420.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-28 12:27:29.423344+00:00 [info] <0.420.0> Started message store of mediaType persistent for vhost '/'
+2025-03-28 12:27:29.423496+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_classic_queue took 48ms
+2025-03-28 12:27:29.423541+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-28 12:27:29.423597+00:00 [info] <0.420.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-28 12:27:29.425671+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-03-28 12:27:29.425743+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-03-28 12:27:29.425766+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -757,13 +757,13 @@
 2025-03-31 07:54:45.371789+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-03-31 07:54:45.404526+00:00 [info] <0.430.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-31 07:54:45.529957+00:00 [info] <0.430.0> Starting message stores for vhost '/'
-2025-03-31 07:54:45.572235+00:00 [info] <0.430.0> Started message store of type transient for vhost '/'
+2025-03-31 07:54:45.572235+00:00 [info] <0.430.0> Started message store of mediaType transient for vhost '/'
 2025-03-31 07:54:45.577896+00:00 [warning] <0.444.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-31 07:54:45.619289+00:00 [info] <0.430.0> Started message store of type persistent for vhost '/'
+2025-03-31 07:54:45.619289+00:00 [info] <0.430.0> Started message store of mediaType persistent for vhost '/'
 2025-03-31 07:54:45.657107+00:00 [warning] <0.454.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-03-31 07:54:45.663155+00:00 [info] <0.430.0> Recovering 1 queues of type rabbit_classic_queue took 223ms
-2025-03-31 07:54:45.663238+00:00 [info] <0.430.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-31 07:54:45.663330+00:00 [info] <0.430.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-31 07:54:45.663155+00:00 [info] <0.430.0> Recovering 1 queues of mediaType rabbit_classic_queue took 223ms
+2025-03-31 07:54:45.663238+00:00 [info] <0.430.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-31 07:54:45.663330+00:00 [info] <0.430.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-31 07:54:45.667028+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-03-31 07:54:45.667156+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-03-31 07:54:45.667353+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -908,13 +908,13 @@
 2025-03-31 12:39:04.916509+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-03-31 12:39:04.946910+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-03-31 12:39:05.030089+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-03-31 12:39:05.058708+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-03-31 12:39:05.058708+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-03-31 12:39:05.062451+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-03-31 12:39:05.081916+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-03-31 12:39:05.081916+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-03-31 12:39:05.102070+00:00 [warning] <0.446.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-03-31 12:39:05.107590+00:00 [info] <0.422.0> Recovering 1 queues of type rabbit_classic_queue took 138ms
-2025-03-31 12:39:05.107644+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-03-31 12:39:05.107754+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-03-31 12:39:05.107590+00:00 [info] <0.422.0> Recovering 1 queues of mediaType rabbit_classic_queue took 138ms
+2025-03-31 12:39:05.107644+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-03-31 12:39:05.107754+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-03-31 12:39:05.110472+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-03-31 12:39:05.110590+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-03-31 12:39:05.110640+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1059,13 +1059,13 @@
 2025-04-01 00:29:00.869954+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-01 00:29:00.912749+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-01 00:29:01.016261+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-01 00:29:01.049871+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-01 00:29:01.049871+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-01 00:29:01.055071+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-01 00:29:01.095388+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-01 00:29:01.095388+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-01 00:29:01.146690+00:00 [warning] <0.446.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-01 00:29:01.151637+00:00 [info] <0.422.0> Recovering 1 queues of type rabbit_classic_queue took 213ms
-2025-04-01 00:29:01.151756+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-01 00:29:01.151828+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-01 00:29:01.151637+00:00 [info] <0.422.0> Recovering 1 queues of mediaType rabbit_classic_queue took 213ms
+2025-04-01 00:29:01.151756+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-01 00:29:01.151828+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-01 00:29:01.155069+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-01 00:29:01.155206+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-01 00:29:01.155469+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1308,15 +1308,15 @@
 2025-04-04 17:46:04.323027+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-04 17:46:04.341759+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-04 17:46:04.379864+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-04 17:46:04.391387+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-04 17:46:04.391387+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-04 17:46:04.393099+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-04 17:46:04.416923+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-04 17:46:04.416923+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-04 17:46:04.425684+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-04 17:46:04.438438+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-04 17:46:04.445480+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-04 17:46:04.447397+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 96ms
-2025-04-04 17:46:04.447476+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-04 17:46:04.447510+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-04 17:46:04.447397+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 96ms
+2025-04-04 17:46:04.447476+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-04 17:46:04.447510+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-04 17:46:04.451323+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-04 17:46:04.451368+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-04 17:46:04.451384+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1474,15 +1474,15 @@
 2025-04-06 11:06:44.258161+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-06 11:06:44.283683+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-06 11:06:44.336288+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-06 11:06:44.351844+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-06 11:06:44.351844+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-06 11:06:44.354211+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-06 11:06:44.366877+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-06 11:06:44.366877+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-06 11:06:44.382290+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-06 11:06:44.383293+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-06 11:06:44.383908+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-06 11:06:44.384277+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 88ms
-2025-04-06 11:06:44.384361+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-06 11:06:44.384469+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-06 11:06:44.384277+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 88ms
+2025-04-06 11:06:44.384361+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-06 11:06:44.384469+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-06 11:06:44.391421+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-06 11:06:44.391560+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-06 11:06:44.391599+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1677,15 +1677,15 @@
 2025-04-06 15:41:47.168608+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-06 15:41:47.199865+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-06 15:41:47.272786+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-06 15:41:47.301326+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-06 15:41:47.301326+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-06 15:41:47.305642+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-06 15:41:47.329112+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-06 15:41:47.329112+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-06 15:41:47.354450+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-06 15:41:47.354807+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-06 15:41:47.355448+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-06 15:41:47.355698+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 136ms
-2025-04-06 15:41:47.355756+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-06 15:41:47.355881+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-06 15:41:47.355698+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 136ms
+2025-04-06 15:41:47.355756+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-06 15:41:47.355881+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-06 15:41:47.361434+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-06 15:41:47.361609+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-06 15:41:47.361714+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1833,15 +1833,15 @@
 2025-04-10 06:47:30.899189+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-10 06:47:30.938932+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-10 06:47:31.047525+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-10 06:47:31.096755+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-10 06:47:31.096755+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-10 06:47:31.102833+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-10 06:47:31.135234+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-10 06:47:31.135234+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-10 06:47:31.150107+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-10 06:47:31.151865+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-10 06:47:31.152513+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-10 06:47:31.152812+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 187ms
-2025-04-10 06:47:31.152888+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-10 06:47:31.153051+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-10 06:47:31.152812+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 187ms
+2025-04-10 06:47:31.152888+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-10 06:47:31.153051+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-10 06:47:31.161098+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-10 06:47:31.161280+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-10 06:47:31.161379+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -1986,15 +1986,15 @@
 2025-04-10 06:50:59.848086+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-10 06:50:59.909810+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-10 06:51:00.005389+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-10 06:51:00.038149+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-10 06:51:00.038149+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-10 06:51:00.042690+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-10 06:51:00.064565+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-10 06:51:00.064565+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-10 06:51:00.083114+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-10 06:51:00.083529+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-10 06:51:00.083615+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-10 06:51:00.083947+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 146ms
-2025-04-10 06:51:00.084070+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-10 06:51:00.084197+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-10 06:51:00.083947+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 146ms
+2025-04-10 06:51:00.084070+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-10 06:51:00.084197+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-10 06:51:00.091752+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-10 06:51:00.091891+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-10 06:51:00.092033+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2143,15 +2143,15 @@
 2025-04-11 16:42:44.397513+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-11 16:42:44.415966+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-11 16:42:44.454392+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-11 16:42:44.465383+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-11 16:42:44.465383+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-11 16:42:44.467069+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-11 16:42:44.475703+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-11 16:42:44.475703+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-11 16:42:44.483411+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:42:44.483520+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:42:44.483866+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-11 16:42:44.484004+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 58ms
-2025-04-11 16:42:44.484061+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-11 16:42:44.484124+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-11 16:42:44.484004+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 58ms
+2025-04-11 16:42:44.484061+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-11 16:42:44.484124+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-11 16:42:44.487416+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-11 16:42:44.487507+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-11 16:42:44.487532+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2296,15 +2296,15 @@
 2025-04-11 16:44:02.207156+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-11 16:44:02.238533+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-11 16:44:02.296932+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-11 16:44:02.318799+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-11 16:44:02.318799+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-11 16:44:02.321883+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-11 16:44:02.337256+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-11 16:44:02.337256+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-11 16:44:02.350528+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:44:02.351135+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:44:02.351355+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-11 16:44:02.351535+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 97ms
-2025-04-11 16:44:02.351596+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-11 16:44:02.351768+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-11 16:44:02.351535+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 97ms
+2025-04-11 16:44:02.351596+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-11 16:44:02.351768+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-11 16:44:02.357247+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-11 16:44:02.357383+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-11 16:44:02.357575+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2453,15 +2453,15 @@
 2025-04-11 16:55:14.454646+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-11 16:55:14.474486+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-11 16:55:14.511446+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-11 16:55:14.523323+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-11 16:55:14.523323+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-11 16:55:14.525393+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-11 16:55:14.534738+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-11 16:55:14.534738+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-11 16:55:14.543639+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:55:14.543853+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 16:55:14.543861+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-11 16:55:14.544184+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 59ms
-2025-04-11 16:55:14.544217+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-11 16:55:14.544317+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-11 16:55:14.544184+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 59ms
+2025-04-11 16:55:14.544217+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-11 16:55:14.544317+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-11 16:55:14.547831+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-11 16:55:14.547899+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-11 16:55:14.547921+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2610,15 +2610,15 @@
 2025-04-11 17:08:19.380036+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-11 17:08:19.419680+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-11 17:08:19.504618+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-11 17:08:19.536683+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-11 17:08:19.536683+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-11 17:08:19.541525+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-11 17:08:19.561649+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-11 17:08:19.561649+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-11 17:08:19.577974+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 17:08:19.577974+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-11 17:08:19.578302+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-11 17:08:19.578595+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 137ms
-2025-04-11 17:08:19.578672+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-11 17:08:19.578842+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-11 17:08:19.578595+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 137ms
+2025-04-11 17:08:19.578672+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-11 17:08:19.578842+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-11 17:08:19.585052+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-11 17:08:19.585214+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-11 17:08:19.585279+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2783,15 +2783,15 @@
 2025-04-15 09:40:24.897180+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 09:40:24.919772+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 09:40:24.972522+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 09:40:24.989827+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 09:40:24.989827+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 09:40:24.992359+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 09:40:25.003703+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 09:40:25.003703+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 09:40:25.013080+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:40:25.013071+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:40:25.013278+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 09:40:25.013413+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 81ms
-2025-04-15 09:40:25.013455+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 09:40:25.013525+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 09:40:25.013413+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 81ms
+2025-04-15 09:40:25.013455+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 09:40:25.013525+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 09:40:25.016770+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 09:40:25.016861+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 09:40:25.016884+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -2936,15 +2936,15 @@
 2025-04-15 09:48:39.281353+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 09:48:39.324302+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 09:48:39.397896+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-15 09:48:39.414915+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-15 09:48:39.414915+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 09:48:39.417513+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 09:48:39.427879+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-15 09:48:39.427879+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 09:48:39.436052+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:48:39.436348+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:48:39.436491+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 09:48:39.436723+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 95ms
-2025-04-15 09:48:39.436802+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 09:48:39.436851+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 09:48:39.436723+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 95ms
+2025-04-15 09:48:39.436802+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 09:48:39.436851+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 09:48:39.440095+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 09:48:39.440176+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 09:48:39.440199+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3089,15 +3089,15 @@
 2025-04-15 09:49:13.959914+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 09:49:13.977638+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 09:49:14.020984+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-15 09:49:14.034758+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-15 09:49:14.034758+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 09:49:14.036347+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 09:49:14.046865+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-15 09:49:14.046865+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 09:49:14.054592+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:49:14.054805+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 09:49:14.054943+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 09:49:14.055084+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 64ms
-2025-04-15 09:49:14.055124+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 09:49:14.055155+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 09:49:14.055084+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 64ms
+2025-04-15 09:49:14.055124+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 09:49:14.055155+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 09:49:14.058862+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 09:49:14.058924+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 09:49:14.058988+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3246,15 +3246,15 @@
 2025-04-15 10:39:55.765681+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 10:39:55.800572+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 10:39:55.917732+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 10:39:55.957952+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 10:39:55.957952+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 10:39:55.963558+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 10:39:55.988475+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 10:39:55.988475+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 10:39:56.005018+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 10:39:56.005347+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 10:39:56.006697+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 10:39:56.006949+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 174ms
-2025-04-15 10:39:56.007061+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 10:39:56.007231+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 10:39:56.006949+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 174ms
+2025-04-15 10:39:56.007061+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 10:39:56.007231+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 10:39:56.013526+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 10:39:56.013711+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 10:39:56.013806+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3399,15 +3399,15 @@
 2025-04-15 10:40:57.033857+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 10:40:57.066720+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 10:40:57.172786+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-15 10:40:57.206142+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-15 10:40:57.206142+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 10:40:57.212597+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 10:40:57.238053+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-15 10:40:57.238053+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 10:40:57.257226+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 10:40:57.257245+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 10:40:57.257593+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 10:40:57.257833+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 162ms
-2025-04-15 10:40:57.257906+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 10:40:57.258174+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 10:40:57.257833+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 162ms
+2025-04-15 10:40:57.257906+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 10:40:57.258174+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 10:40:57.263700+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 10:40:57.263830+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 10:40:57.263958+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3556,15 +3556,15 @@
 2025-04-15 11:05:54.749795+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:05:54.789501+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:05:54.881940+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:05:54.917193+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:05:54.917193+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:05:54.922390+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:05:54.945472+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:05:54.945472+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:05:54.960433+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:05:54.960657+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:05:54.961836+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:05:54.962078+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 146ms
-2025-04-15 11:05:54.962195+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:05:54.962257+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:05:54.962078+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 146ms
+2025-04-15 11:05:54.962195+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:05:54.962257+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:05:54.968012+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:05:54.968114+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:05:54.968230+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3713,15 +3713,15 @@
 2025-04-15 11:09:11.920027+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:09:11.948211+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:09:12.037529+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:09:12.066676+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:09:12.066676+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:09:12.070946+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:09:12.090818+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:09:12.090818+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:09:12.106205+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:09:12.108530+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:09:12.109050+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:09:12.109472+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 137ms
-2025-04-15 11:09:12.109589+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:09:12.109765+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:09:12.109472+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 137ms
+2025-04-15 11:09:12.109589+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:09:12.109765+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:09:12.115910+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:09:12.116033+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:09:12.116078+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -3870,15 +3870,15 @@
 2025-04-15 11:10:41.655158+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:10:41.690721+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:10:41.808056+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-15 11:10:41.838999+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-15 11:10:41.838999+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:10:41.843267+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:10:41.865800+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:10:41.865800+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:10:41.883506+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:10:41.883916+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:10:41.884449+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:10:41.884816+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 163ms
-2025-04-15 11:10:41.884939+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:10:41.885172+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:10:41.884816+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 163ms
+2025-04-15 11:10:41.884939+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:10:41.885172+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:10:41.893157+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:10:41.893323+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:10:41.893405+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4027,15 +4027,15 @@
 2025-04-15 11:13:01.687633+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:13:01.726902+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:13:01.829536+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:13:01.867849+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:13:01.867849+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:13:01.873619+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:13:01.897175+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:13:01.897175+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:13:01.914848+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:13:01.916039+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:13:01.916637+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:13:01.916837+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 161ms
-2025-04-15 11:13:01.916935+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:13:01.917077+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:13:01.916837+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 161ms
+2025-04-15 11:13:01.916935+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:13:01.917077+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:13:01.924148+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:13:01.924322+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:13:01.924586+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4184,15 +4184,15 @@
 2025-04-15 11:24:32.154690+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:24:32.188832+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:24:32.303842+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:24:32.343891+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:24:32.343891+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:24:32.349817+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:24:32.373299+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:24:32.373299+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:24:32.392006+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:24:32.392320+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:24:32.392361+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:24:32.392952+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 172ms
-2025-04-15 11:24:32.393020+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:24:32.393132+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:24:32.392952+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 172ms
+2025-04-15 11:24:32.393020+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:24:32.393132+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:24:32.397954+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:24:32.398119+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:24:32.398203+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4341,15 +4341,15 @@
 2025-04-15 11:46:51.229050+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:46:51.268282+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:46:51.394041+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:46:51.433593+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:46:51.433593+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:46:51.439948+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:46:51.462786+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:46:51.462786+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:46:51.482498+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:46:51.483695+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:46:51.484790+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:46:51.485230+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 174ms
-2025-04-15 11:46:51.485298+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:46:51.485418+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:46:51.485230+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 174ms
+2025-04-15 11:46:51.485298+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:46:51.485418+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:46:51.491935+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:46:51.492107+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:46:51.492183+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4498,15 +4498,15 @@
 2025-04-15 11:54:36.643762+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 11:54:36.668420+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 11:54:36.737741+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 11:54:36.761015+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 11:54:36.761015+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 11:54:36.764423+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 11:54:36.781379+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 11:54:36.781379+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 11:54:36.796670+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:54:36.796647+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 11:54:36.796857+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 11:54:36.797089+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 109ms
-2025-04-15 11:54:36.797161+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 11:54:36.797214+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 11:54:36.797089+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 109ms
+2025-04-15 11:54:36.797161+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 11:54:36.797214+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 11:54:36.801222+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 11:54:36.801396+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 11:54:36.801534+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4655,15 +4655,15 @@
 2025-04-15 12:01:46.369500+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-15 12:01:46.403476+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-15 12:01:46.521954+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-15 12:01:46.558581+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-15 12:01:46.558581+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-15 12:01:46.564617+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-15 12:01:46.587095+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-15 12:01:46.587095+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-15 12:01:46.605839+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 12:01:46.606426+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-15 12:01:46.607701+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-15 12:01:46.607975+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 173ms
-2025-04-15 12:01:46.608085+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-15 12:01:46.608304+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-15 12:01:46.607975+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 173ms
+2025-04-15 12:01:46.608085+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-15 12:01:46.608304+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-15 12:01:46.613442+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-15 12:01:46.613628+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-15 12:01:46.613745+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4812,15 +4812,15 @@
 2025-04-18 11:38:17.293060+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 11:38:17.331723+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 11:38:17.441677+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-18 11:38:17.472191+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-18 11:38:17.472191+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 11:38:17.478103+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 11:38:17.499516+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-18 11:38:17.499516+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 11:38:17.519876+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 11:38:17.521284+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 11:38:17.522338+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 11:38:17.522602+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 161ms
-2025-04-18 11:38:17.522708+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 11:38:17.523026+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 11:38:17.522602+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 161ms
+2025-04-18 11:38:17.522708+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 11:38:17.523026+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 11:38:17.531071+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 11:38:17.531212+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 11:38:17.531248+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -4965,15 +4965,15 @@
 2025-04-18 11:57:02.539652+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 11:57:02.567064+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 11:57:02.648980+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-18 11:57:02.674485+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-18 11:57:02.674485+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 11:57:02.677891+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 11:57:02.696582+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-18 11:57:02.696582+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 11:57:02.713125+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 11:57:02.713354+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 11:57:02.713891+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 11:57:02.714113+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 123ms
-2025-04-18 11:57:02.714159+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 11:57:02.714337+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 11:57:02.714113+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 123ms
+2025-04-18 11:57:02.714159+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 11:57:02.714337+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 11:57:02.718736+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 11:57:02.718841+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 11:57:02.718893+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5118,15 +5118,15 @@
 2025-04-18 12:02:24.820464+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 12:02:24.858493+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 12:02:24.972653+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-18 12:02:25.011722+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-18 12:02:25.011722+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 12:02:25.017469+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 12:02:25.038464+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-18 12:02:25.038464+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 12:02:25.069711+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:02:25.073200+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:02:25.077408+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 12:02:25.077851+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 195ms
-2025-04-18 12:02:25.077955+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 12:02:25.078203+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 12:02:25.077851+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 195ms
+2025-04-18 12:02:25.077955+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 12:02:25.078203+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 12:02:25.087573+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 12:02:25.088150+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 12:02:25.089630+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5271,15 +5271,15 @@
 2025-04-18 12:04:23.143155+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 12:04:23.177011+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 12:04:23.302271+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-18 12:04:23.341582+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-18 12:04:23.341582+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 12:04:23.347948+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 12:04:23.373173+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-18 12:04:23.373173+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 12:04:23.395519+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:04:23.395863+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:04:23.397069+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 12:04:23.397317+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 189ms
-2025-04-18 12:04:23.397369+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 12:04:23.397478+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 12:04:23.397317+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 189ms
+2025-04-18 12:04:23.397369+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 12:04:23.397478+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 12:04:23.403370+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 12:04:23.403520+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 12:04:23.403556+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5428,15 +5428,15 @@
 2025-04-18 12:11:53.802649+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 12:11:53.842063+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 12:11:53.955583+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-18 12:11:53.989216+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-18 12:11:53.989216+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 12:11:53.993000+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 12:11:54.014441+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-18 12:11:54.014441+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 12:11:54.036169+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:11:54.036215+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:11:54.036565+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 12:11:54.036927+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 167ms
-2025-04-18 12:11:54.036993+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 12:11:54.037323+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 12:11:54.036927+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 167ms
+2025-04-18 12:11:54.036993+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 12:11:54.037323+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 12:11:54.043408+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 12:11:54.043559+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 12:11:54.043715+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5581,15 +5581,15 @@
 2025-04-18 12:14:33.762569+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-18 12:14:33.796105+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-18 12:14:33.912256+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-18 12:14:33.943685+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-18 12:14:33.943685+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-18 12:14:33.948063+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-18 12:14:33.973392+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-18 12:14:33.973392+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-18 12:14:33.992790+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:14:33.993161+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-18 12:14:33.993482+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-18 12:14:33.993680+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 166ms
-2025-04-18 12:14:33.993752+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-18 12:14:33.993786+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-18 12:14:33.993680+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 166ms
+2025-04-18 12:14:33.993752+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-18 12:14:33.993786+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-18 12:14:33.999223+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-18 12:14:33.999326+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-18 12:14:33.999431+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5738,15 +5738,15 @@
 2025-04-19 03:16:34.450000+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-19 03:16:34.470499+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-19 03:16:34.516120+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-19 03:16:34.530931+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-19 03:16:34.530931+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-19 03:16:34.532731+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-19 03:16:34.542103+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-19 03:16:34.542103+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-19 03:16:34.551100+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-19 03:16:34.551359+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-19 03:16:34.551381+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-19 03:16:34.551516+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 70ms
-2025-04-19 03:16:34.551614+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-19 03:16:34.551686+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-19 03:16:34.551516+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 70ms
+2025-04-19 03:16:34.551614+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-19 03:16:34.551686+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-19 03:16:34.555331+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-19 03:16:34.555427+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-19 03:16:34.555452+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -5891,15 +5891,15 @@
 2025-04-19 03:17:51.906493+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-19 03:17:51.924043+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-19 03:17:51.957309+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-19 03:17:51.968054+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-19 03:17:51.968054+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-19 03:17:51.969844+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-19 03:17:51.978829+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-19 03:17:51.978829+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-19 03:17:51.986990+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-19 03:17:51.987005+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-19 03:17:51.987082+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-19 03:17:51.987202+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 54ms
-2025-04-19 03:17:51.987251+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-19 03:17:51.987363+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-19 03:17:51.987202+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 54ms
+2025-04-19 03:17:51.987251+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-19 03:17:51.987363+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-19 03:17:51.990359+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-19 03:17:51.990414+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-19 03:17:51.990435+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6049,15 +6049,15 @@
 2025-04-21 16:08:20.754284+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-21 16:08:20.773310+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-21 16:08:20.812764+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-21 16:08:20.824895+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-21 16:08:20.824895+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-21 16:08:20.826524+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-21 16:08:20.836815+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-21 16:08:20.836815+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-21 16:08:20.845295+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-21 16:08:20.845504+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-21 16:08:20.845688+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-21 16:08:20.845898+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 62ms
-2025-04-21 16:08:20.845955+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-21 16:08:20.846017+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-21 16:08:20.845898+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 62ms
+2025-04-21 16:08:20.845955+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-21 16:08:20.846017+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-21 16:08:20.849780+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-21 16:08:20.849869+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-21 16:08:20.849954+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6202,15 +6202,15 @@
 2025-04-21 16:14:13.452651+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-21 16:14:13.476875+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-21 16:14:13.527347+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-21 16:14:13.542251+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-21 16:14:13.542251+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-21 16:14:13.544037+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-21 16:14:13.557272+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-21 16:14:13.557272+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-21 16:14:13.570781+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-21 16:14:13.571066+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-21 16:14:13.571299+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-21 16:14:13.571503+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 82ms
-2025-04-21 16:14:13.571543+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-21 16:14:13.571687+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-21 16:14:13.571503+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 82ms
+2025-04-21 16:14:13.571543+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-21 16:14:13.571687+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-21 16:14:13.577037+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-21 16:14:13.577125+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-21 16:14:13.577148+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6359,15 +6359,15 @@
 2025-04-23 12:06:34.273777+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-23 12:06:34.338667+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-23 12:06:34.512697+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-23 12:06:34.557580+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-23 12:06:34.557580+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-23 12:06:34.564907+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-23 12:06:34.597881+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-23 12:06:34.597881+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-23 12:06:34.621747+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-23 12:06:34.622190+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-23 12:06:34.623961+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-23 12:06:34.624359+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 241ms
-2025-04-23 12:06:34.624484+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-23 12:06:34.624627+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-23 12:06:34.624359+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 241ms
+2025-04-23 12:06:34.624484+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-23 12:06:34.624627+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-23 12:06:34.634620+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-23 12:06:34.634829+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-23 12:06:34.634913+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6512,15 +6512,15 @@
 2025-04-27 11:26:08.410872+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 11:26:08.455387+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 11:26:08.580108+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 11:26:08.621270+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 11:26:08.621270+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 11:26:08.627302+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 11:26:08.657038+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 11:26:08.657038+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 11:26:08.674221+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 11:26:08.674580+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 11:26:08.675009+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 11:26:08.675366+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 182ms
-2025-04-27 11:26:08.675474+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 11:26:08.675576+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 11:26:08.675366+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 182ms
+2025-04-27 11:26:08.675474+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 11:26:08.675576+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 11:26:08.680192+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 11:26:08.680317+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 11:26:08.680446+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6665,15 +6665,15 @@
 2025-04-27 11:35:06.880172+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 11:35:06.905089+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 11:35:06.955877+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-04-27 11:35:06.973212+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-04-27 11:35:06.973212+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 11:35:06.975357+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 11:35:06.987549+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-04-27 11:35:06.987549+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 11:35:06.997883+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 11:35:06.999389+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 11:35:06.999820+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 11:35:07.000117+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 81ms
-2025-04-27 11:35:07.000188+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 11:35:07.000242+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 11:35:07.000117+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 81ms
+2025-04-27 11:35:07.000188+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 11:35:07.000242+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 11:35:07.004430+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 11:35:07.004524+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 11:35:07.004599+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6822,15 +6822,15 @@
 2025-04-27 12:00:33.938738+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 12:00:33.977326+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 12:00:34.075872+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 12:00:34.103137+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 12:00:34.103137+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 12:00:34.107466+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 12:00:34.128873+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 12:00:34.128873+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 12:00:34.148077+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 12:00:34.148502+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 12:00:34.149174+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 12:00:34.149647+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 137ms
-2025-04-27 12:00:34.149753+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 12:00:34.149867+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 12:00:34.149647+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 137ms
+2025-04-27 12:00:34.149753+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 12:00:34.149867+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 12:00:34.157618+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 12:00:34.157765+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 12:00:34.157849+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -6979,15 +6979,15 @@
 2025-04-27 17:09:53.558593+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 17:09:53.579102+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 17:09:53.618813+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 17:09:53.632866+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 17:09:53.632866+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 17:09:53.634701+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 17:09:53.645236+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 17:09:53.645236+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 17:09:53.654209+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:09:53.654193+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:09:53.654391+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 17:09:53.654513+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 65ms
-2025-04-27 17:09:53.654558+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 17:09:53.654592+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 17:09:53.654513+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 65ms
+2025-04-27 17:09:53.654558+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 17:09:53.654592+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 17:09:53.657969+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 17:09:53.658064+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 17:09:53.658091+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7136,15 +7136,15 @@
 2025-04-27 17:49:36.968656+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 17:49:36.992046+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 17:49:37.033588+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 17:49:37.050054+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 17:49:37.050054+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 17:49:37.052428+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 17:49:37.063955+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 17:49:37.063955+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 17:49:37.074362+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:49:37.074656+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:49:37.074669+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 17:49:37.074861+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 71ms
-2025-04-27 17:49:37.074898+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 17:49:37.074974+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 17:49:37.074861+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 71ms
+2025-04-27 17:49:37.074898+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 17:49:37.074974+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 17:49:37.078439+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 17:49:37.078502+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 17:49:37.078523+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7293,15 +7293,15 @@
 2025-04-27 17:53:22.992635+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 17:53:23.029227+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 17:53:23.083585+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 17:53:23.100819+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 17:53:23.100819+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 17:53:23.103534+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 17:53:23.116053+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 17:53:23.116053+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 17:53:23.126860+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:53:23.126921+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:53:23.127150+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 17:53:23.127289+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 83ms
-2025-04-27 17:53:23.127344+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 17:53:23.127404+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 17:53:23.127289+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 83ms
+2025-04-27 17:53:23.127344+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 17:53:23.127404+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 17:53:23.131663+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 17:53:23.131728+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 17:53:23.131873+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7450,15 +7450,15 @@
 2025-04-27 17:58:08.823017+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 17:58:08.845880+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 17:58:08.910048+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 17:58:08.933850+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 17:58:08.933850+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 17:58:08.936720+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 17:58:08.951847+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 17:58:08.951847+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 17:58:08.965714+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:58:08.965832+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 17:58:08.965968+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 17:58:08.966172+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 105ms
-2025-04-27 17:58:08.966216+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 17:58:08.966294+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 17:58:08.966172+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 105ms
+2025-04-27 17:58:08.966216+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 17:58:08.966294+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 17:58:08.970367+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 17:58:08.970459+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 17:58:08.970486+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7607,15 +7607,15 @@
 2025-04-27 18:03:56.242773+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 18:03:56.267804+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 18:03:56.324947+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 18:03:56.341360+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 18:03:56.341360+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 18:03:56.343505+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 18:03:56.355978+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 18:03:56.355978+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 18:03:56.366992+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 18:03:56.367216+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 18:03:56.367357+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 18:03:56.367573+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 84ms
-2025-04-27 18:03:56.367658+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 18:03:56.367739+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 18:03:56.367573+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 84ms
+2025-04-27 18:03:56.367658+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 18:03:56.367739+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 18:03:56.372392+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 18:03:56.372543+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 18:03:56.372586+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7764,15 +7764,15 @@
 2025-04-27 18:07:34.675641+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-04-27 18:07:34.698617+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-04-27 18:07:34.743719+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-04-27 18:07:34.773151+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-04-27 18:07:34.773151+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-04-27 18:07:34.775867+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-04-27 18:07:34.788773+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-04-27 18:07:34.788773+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-04-27 18:07:34.800789+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 18:07:34.800809+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-04-27 18:07:34.800937+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-04-27 18:07:34.801151+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 90ms
-2025-04-27 18:07:34.801208+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-04-27 18:07:34.801429+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-04-27 18:07:34.801151+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 90ms
+2025-04-27 18:07:34.801208+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-04-27 18:07:34.801429+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-04-27 18:07:34.806008+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-04-27 18:07:34.806093+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-04-27 18:07:34.806258+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -7921,15 +7921,15 @@
 2025-05-06 04:37:38.309471+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-06 04:37:38.343842+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-06 04:37:38.464387+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-05-06 04:37:38.502672+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-05-06 04:37:38.502672+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-05-06 04:37:38.508713+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-06 04:37:38.536017+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-05-06 04:37:38.536017+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-05-06 04:37:38.555813+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-06 04:37:38.556181+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-06 04:37:38.556826+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-06 04:37:38.557212+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 179ms
-2025-05-06 04:37:38.557347+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-06 04:37:38.557469+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-06 04:37:38.557212+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 179ms
+2025-05-06 04:37:38.557347+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-06 04:37:38.557469+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-06 04:37:38.564622+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-06 04:37:38.564765+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-06 04:37:38.564812+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8074,15 +8074,15 @@
 2025-05-06 04:38:53.221782+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-06 04:38:53.247875+00:00 [info] <0.426.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-06 04:38:53.351274+00:00 [info] <0.426.0> Starting message stores for vhost '/'
-2025-05-06 04:38:53.381380+00:00 [info] <0.426.0> Started message store of type transient for vhost '/'
+2025-05-06 04:38:53.381380+00:00 [info] <0.426.0> Started message store of mediaType transient for vhost '/'
 2025-05-06 04:38:53.386703+00:00 [warning] <0.440.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-06 04:38:53.405002+00:00 [info] <0.426.0> Started message store of type persistent for vhost '/'
+2025-05-06 04:38:53.405002+00:00 [info] <0.426.0> Started message store of mediaType persistent for vhost '/'
 2025-05-06 04:38:53.419166+00:00 [warning] <0.450.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-06 04:38:53.419150+00:00 [warning] <0.453.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-06 04:38:53.419698+00:00 [warning] <0.456.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-06 04:38:53.419918+00:00 [info] <0.426.0> Recovering 3 queues of type rabbit_classic_queue took 146ms
-2025-05-06 04:38:53.420001+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-06 04:38:53.420163+00:00 [info] <0.426.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-06 04:38:53.419918+00:00 [info] <0.426.0> Recovering 3 queues of mediaType rabbit_classic_queue took 146ms
+2025-05-06 04:38:53.420001+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-06 04:38:53.420163+00:00 [info] <0.426.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-06 04:38:53.425592+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-06 04:38:53.425730+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-06 04:38:53.425792+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8230,15 +8230,15 @@
 2025-05-07 08:16:02.927632+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-07 08:16:02.969525+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-07 08:16:03.054791+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-07 08:16:03.088332+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-07 08:16:03.088332+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-07 08:16:03.094005+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-07 08:16:03.117651+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-07 08:16:03.117651+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-07 08:16:03.135899+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-07 08:16:03.135899+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-07 08:16:03.136262+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-07 08:16:03.136617+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 146ms
-2025-05-07 08:16:03.136728+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-07 08:16:03.137031+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-07 08:16:03.136617+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 146ms
+2025-05-07 08:16:03.136728+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-07 08:16:03.137031+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-07 08:16:03.142349+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-07 08:16:03.142534+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-07 08:16:03.142725+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8388,15 +8388,15 @@
 2025-05-13 12:29:42.955246+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-13 12:29:42.978204+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-13 12:29:43.023718+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-13 12:29:43.039398+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-13 12:29:43.039398+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-13 12:29:43.042015+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-13 12:29:43.053292+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-13 12:29:43.053292+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-13 12:29:43.062970+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-13 12:29:43.063255+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-13 12:29:43.063517+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-13 12:29:43.063743+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 74ms
-2025-05-13 12:29:43.063806+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-13 12:29:43.063847+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-13 12:29:43.063743+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 74ms
+2025-05-13 12:29:43.063806+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-13 12:29:43.063847+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-13 12:29:43.068094+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-13 12:29:43.068262+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-13 12:29:43.068333+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8551,15 +8551,15 @@
 2025-05-14 00:48:47.886014+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-14 00:48:47.930329+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-14 00:48:48.037524+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-14 00:48:48.082890+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-14 00:48:48.082890+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-14 00:48:48.089344+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-14 00:48:48.116524+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-14 00:48:48.116524+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-14 00:48:48.133955+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-14 00:48:48.134983+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-14 00:48:48.135340+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-14 00:48:48.135653+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 178ms
-2025-05-14 00:48:48.135765+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-14 00:48:48.135845+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-14 00:48:48.135653+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 178ms
+2025-05-14 00:48:48.135765+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-14 00:48:48.135845+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-14 00:48:48.142764+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-14 00:48:48.142922+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-14 00:48:48.143027+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8797,15 +8797,15 @@
 2025-05-17 16:40:56.497926+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-17 16:40:56.525842+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-17 16:40:56.589563+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-17 16:40:56.607453+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-17 16:40:56.607453+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-17 16:40:56.609380+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-17 16:40:56.622919+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-17 16:40:56.622919+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-17 16:40:56.633878+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-17 16:40:56.633878+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-17 16:40:56.634142+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-17 16:40:56.634265+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 95ms
-2025-05-17 16:40:56.634316+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-17 16:40:56.634513+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-17 16:40:56.634265+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 95ms
+2025-05-17 16:40:56.634316+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-17 16:40:56.634513+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-17 16:40:56.638607+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-17 16:40:56.638721+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-17 16:40:56.638755+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -8978,15 +8978,15 @@
 2025-05-21 03:39:21.493553+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-21 03:39:21.523815+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-21 03:39:21.605266+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-21 03:39:21.632430+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-21 03:39:21.632430+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-21 03:39:21.636701+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-21 03:39:21.656370+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-21 03:39:21.656370+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-21 03:39:21.675695+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-21 03:39:21.678580+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-21 03:39:21.679890+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-21 03:39:21.680236+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 133ms
-2025-05-21 03:39:21.680326+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-21 03:39:21.680448+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-21 03:39:21.680236+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 133ms
+2025-05-21 03:39:21.680326+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-21 03:39:21.680448+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-21 03:39:21.688229+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-21 03:39:21.688426+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-21 03:39:21.688495+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -9142,15 +9142,15 @@
 2025-05-26 02:11:23.909831+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-26 02:11:23.931023+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-26 02:11:23.973583+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-26 02:11:23.985547+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-26 02:11:23.985547+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-26 02:11:23.987415+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-26 02:11:23.997344+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-26 02:11:23.997344+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-26 02:11:24.006429+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-26 02:11:24.006650+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-26 02:11:24.006664+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-26 02:11:24.006841+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 65ms
-2025-05-26 02:11:24.006874+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-26 02:11:24.006903+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-26 02:11:24.006841+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 65ms
+2025-05-26 02:11:24.006874+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-26 02:11:24.006903+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-26 02:11:24.010461+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-26 02:11:24.010545+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-26 02:11:24.010571+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -9295,15 +9295,15 @@
 2025-05-28 00:36:29.510846+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-28 00:36:29.559667+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-28 00:36:29.734337+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-28 00:36:29.794894+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-28 00:36:29.794894+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-28 00:36:29.803429+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-28 00:36:29.839908+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-28 00:36:29.839908+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-28 00:36:29.867238+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-28 00:36:29.867694+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-28 00:36:29.868365+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-28 00:36:29.868996+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 263ms
-2025-05-28 00:36:29.869084+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-28 00:36:29.869305+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-28 00:36:29.868996+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 263ms
+2025-05-28 00:36:29.869084+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-28 00:36:29.869305+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-28 00:36:29.878517+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-28 00:36:29.878677+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-28 00:36:29.878794+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -9448,15 +9448,15 @@
 2025-05-29 06:05:13.229566+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-29 06:05:13.261182+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-29 06:05:13.338806+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-29 06:05:13.359872+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-29 06:05:13.359872+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-29 06:05:13.363733+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-29 06:05:13.379615+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-29 06:05:13.379615+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-29 06:05:13.395069+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-29 06:05:13.395069+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-29 06:05:13.395349+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-29 06:05:13.395616+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 115ms
-2025-05-29 06:05:13.395706+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-29 06:05:13.395748+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-29 06:05:13.395616+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 115ms
+2025-05-29 06:05:13.395706+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-29 06:05:13.395748+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-29 06:05:13.400786+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-29 06:05:13.400880+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-29 06:05:13.401030+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -9671,15 +9671,15 @@
 2025-05-30 15:15:31.227861+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-05-30 15:15:31.252935+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-05-30 15:15:31.300886+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-05-30 15:15:31.314932+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-05-30 15:15:31.314932+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-05-30 15:15:31.317187+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-05-30 15:15:31.329919+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-05-30 15:15:31.329919+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-05-30 15:15:31.339801+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-30 15:15:31.340444+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-05-30 15:15:31.340628+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-05-30 15:15:31.340827+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 76ms
-2025-05-30 15:15:31.340899+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-05-30 15:15:31.340978+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-05-30 15:15:31.340827+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 76ms
+2025-05-30 15:15:31.340899+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-05-30 15:15:31.340978+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-05-30 15:15:31.345682+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-05-30 15:15:31.345826+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-05-30 15:15:31.345911+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -9854,15 +9854,15 @@
 2025-06-07 03:05:43.036199+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-06-07 03:05:43.067324+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-06-07 03:05:43.148449+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-06-07 03:05:43.167353+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-06-07 03:05:43.167353+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-06-07 03:05:43.170206+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-06-07 03:05:43.185962+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-06-07 03:05:43.185962+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-06-07 03:05:43.199062+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-07 03:05:43.199062+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-07 03:05:43.199376+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-06-07 03:05:43.199574+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 112ms
-2025-06-07 03:05:43.199618+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-06-07 03:05:43.199712+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-06-07 03:05:43.199574+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 112ms
+2025-06-07 03:05:43.199618+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-06-07 03:05:43.199712+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-06-07 03:05:43.204547+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-06-07 03:05:43.204717+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-06-07 03:05:43.204747+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -10015,15 +10015,15 @@
 2025-06-18 14:49:50.539227+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-06-18 14:49:50.568749+00:00 [info] <0.423.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-06-18 14:49:50.634782+00:00 [info] <0.423.0> Starting message stores for vhost '/'
-2025-06-18 14:49:50.656919+00:00 [info] <0.423.0> Started message store of type transient for vhost '/'
+2025-06-18 14:49:50.656919+00:00 [info] <0.423.0> Started message store of mediaType transient for vhost '/'
 2025-06-18 14:49:50.660424+00:00 [warning] <0.437.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-06-18 14:49:50.680384+00:00 [info] <0.423.0> Started message store of type persistent for vhost '/'
+2025-06-18 14:49:50.680384+00:00 [info] <0.423.0> Started message store of mediaType persistent for vhost '/'
 2025-06-18 14:49:50.694295+00:00 [warning] <0.447.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-18 14:49:50.694724+00:00 [warning] <0.453.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-18 14:49:50.695404+00:00 [warning] <0.450.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-06-18 14:49:50.695630+00:00 [info] <0.423.0> Recovering 3 queues of type rabbit_classic_queue took 110ms
-2025-06-18 14:49:50.695674+00:00 [info] <0.423.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-06-18 14:49:50.695782+00:00 [info] <0.423.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-06-18 14:49:50.695630+00:00 [info] <0.423.0> Recovering 3 queues of mediaType rabbit_classic_queue took 110ms
+2025-06-18 14:49:50.695674+00:00 [info] <0.423.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-06-18 14:49:50.695782+00:00 [info] <0.423.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-06-18 14:49:50.700276+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-06-18 14:49:50.700402+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-06-18 14:49:50.700428+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -10212,15 +10212,15 @@
 2025-06-19 17:31:52.110219+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-06-19 17:31:52.167932+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-06-19 17:31:52.332451+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-06-19 17:31:52.389701+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-06-19 17:31:52.389701+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-06-19 17:31:52.397745+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-06-19 17:31:52.437311+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-06-19 17:31:52.437311+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-06-19 17:31:52.465347+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-19 17:31:52.466270+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-19 17:31:52.467546+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-06-19 17:31:52.467918+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 256ms
-2025-06-19 17:31:52.468222+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-06-19 17:31:52.468549+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-06-19 17:31:52.467918+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 256ms
+2025-06-19 17:31:52.468222+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-06-19 17:31:52.468549+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-06-19 17:31:52.477624+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-06-19 17:31:52.477878+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-06-19 17:31:52.478040+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
@@ -10365,15 +10365,15 @@
 2025-06-21 07:17:33.009710+00:00 [info] <0.216.0> Running boot step recovery defined by app rabbit
 2025-06-21 07:17:33.041299+00:00 [info] <0.422.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@1161c5ae6e6d/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
 2025-06-21 07:17:33.131430+00:00 [info] <0.422.0> Starting message stores for vhost '/'
-2025-06-21 07:17:33.156431+00:00 [info] <0.422.0> Started message store of type transient for vhost '/'
+2025-06-21 07:17:33.156431+00:00 [info] <0.422.0> Started message store of mediaType transient for vhost '/'
 2025-06-21 07:17:33.159700+00:00 [warning] <0.436.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
-2025-06-21 07:17:33.177638+00:00 [info] <0.422.0> Started message store of type persistent for vhost '/'
+2025-06-21 07:17:33.177638+00:00 [info] <0.422.0> Started message store of mediaType persistent for vhost '/'
 2025-06-21 07:17:33.195855+00:00 [warning] <0.449.0> Queue video.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-21 07:17:33.197013+00:00 [warning] <0.446.0> Queue upscale.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
 2025-06-21 07:17:33.203291+00:00 [warning] <0.452.0> Queue image.queue in vhost / dropped 0/0/0 persistent messages and 0 transient messages after unclean shutdown
-2025-06-21 07:17:33.203607+00:00 [info] <0.422.0> Recovering 3 queues of type rabbit_classic_queue took 136ms
-2025-06-21 07:17:33.203693+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
-2025-06-21 07:17:33.203772+00:00 [info] <0.422.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-06-21 07:17:33.203607+00:00 [info] <0.422.0> Recovering 3 queues of mediaType rabbit_classic_queue took 136ms
+2025-06-21 07:17:33.203693+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_quorum_queue took 0ms
+2025-06-21 07:17:33.203772+00:00 [info] <0.422.0> Recovering 0 queues of mediaType rabbit_stream_queue took 0ms
 2025-06-21 07:17:33.209153+00:00 [info] <0.216.0> Running boot step empty_db_check defined by app rabbit
 2025-06-21 07:17:33.209272+00:00 [info] <0.216.0> Will not seed default virtual host and user: have definitions to load...
 2025-06-21 07:17:33.209390+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
