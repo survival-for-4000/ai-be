@@ -1,6 +1,6 @@
 app:
   client:
-    url: http://localhost:8090
+    url: http://localhost:3000/home
 server:
   port: 8090
   shutdown: graceful
