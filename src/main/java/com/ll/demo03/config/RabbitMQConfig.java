@@ -17,10 +17,6 @@ public class RabbitMQConfig {
     public static final String IMAGE_QUEUE = "image.queue";
     public static final String IMAGE_CREATE_ROUTING_KEY = "image.create";
 
-    public static final String UPSCALE_EXCHANGE = "upscale.exchange";
-    public static final String UPSCALE_QUEUE = "upscale.queue";
-    public static final String UPSCALE_ROUTING_KEY = "upscale.create";
-
     public static final String T2V_EXCHANGE = "t2v.exchange";
     public static final String T2V_QUEUE = "t2v.queue";
     public static final String T2V_ROUTING_KEY = "t2v.create";
@@ -28,6 +24,10 @@ public class RabbitMQConfig {
     public static final String I2V_EXCHANGE = "i2v.exchange";
     public static final String I2V_QUEUE = "i2v.queue";
     public static final String I2V_ROUTING_KEY = "i2v.create";
+
+    public static final String DOWNLOAD_EXCHANGE = "download.exchange";
+    public static final String DOWNLOAD_QUEUE = "download.queue";
+    public static final String DOWNLOAD_ROUTING_KEY = "download.create";
 
     @Bean
     public Queue imageQueue() {
@@ -45,22 +45,6 @@ public class RabbitMQConfig {
         return BindingBuilder.bind(queue).to(topicExchange).with(IMAGE_CREATE_ROUTING_KEY);
     }
 
-    // Upscale Queue and Binding
-    @Bean
-    public Queue upscaleQueue() {
-        return new Queue(UPSCALE_QUEUE, true);
-    }
-
-    @Bean
-    public TopicExchange upscaleExchange() {
-        return new TopicExchange(UPSCALE_EXCHANGE);
-    }
-
-    @Bean
-    public Binding upscaleBinding(@Qualifier("upscaleQueue") Queue queue,
-                                  @Qualifier("upscaleExchange") TopicExchange topicExchange) {
-        return BindingBuilder.bind(queue).to(topicExchange).with(UPSCALE_ROUTING_KEY);
-    }
 
     @Bean
     public Queue t2vQueue() {
@@ -92,6 +76,22 @@ public class RabbitMQConfig {
     public Binding i2vBinding(@Qualifier("i2vQueue") Queue queue,
                               @Qualifier("i2vExchange") TopicExchange topicExchange) {
         return BindingBuilder.bind(queue).to(topicExchange).with(I2V_ROUTING_KEY);
+    }
+
+    @Bean
+    public Queue downloadQueue() {
+        return new Queue(DOWNLOAD_QUEUE, true);
+    }
+
+    @Bean
+    public TopicExchange downloadExchange() {
+        return new TopicExchange(DOWNLOAD_EXCHANGE);
+    }
+
+    @Bean
+    public Binding downloadBinding(@Qualifier("downloadQueue") Queue queue,
+                              @Qualifier("downloadExchange") TopicExchange topicExchange) {
+        return BindingBuilder.bind(queue).to(topicExchange).with(DOWNLOAD_ROUTING_KEY);
     }
 
 
