@@ -1,51 +1,43 @@
 package com.ll.demo03.payment.controller;
 
-
-import com.ll.demo03.oauth.domain.PrincipalDetails;
-import com.ll.demo03.payment.controller.request.PaymentConfirmRequest;
-import com.ll.demo03.payment.controller.response.PaymentConfirmResponse;
-import com.ll.demo03.payment.service.PaymentService;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import com.ll.demo03.payment.config.PortOneSecretProperties;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.ui.Model;
-
-import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/api")
-@Slf4j
+@RequestMapping("/api/payment")
 public class PaymentController {
+    private static final Logger logger = LoggerFactory.getLogger(PaymentController.class);
 
-    private final PaymentService paymentService;
+    private final PortOneSecretProperties secret;
 
-    public PaymentController(PaymentService paymentService) {
-        this.paymentService = paymentService;
+    public PaymentController(PortOneSecretProperties secret) {
+        this.secret = secret;
+        // PaymentClient, WebhookVerifier 초기화 등
     }
 
-    @PostMapping("/confirm")
-    public ResponseEntity<PaymentConfirmResponse> confirmPayment(
-            @AuthenticationPrincipal PrincipalDetails principalDetails,
-            @RequestBody PaymentConfirmRequest requestDto) {
-        log.info("Payment confirmation request received: {}", requestDto);
-
-        PaymentConfirmResponse responseDto = paymentService.confirmPayment(requestDto);
-
-
-        return ResponseEntity.status(responseDto.getStatusCode()).body(responseDto);
+    @GetMapping("/item")
+    public String getItem() {
+        // 샘플 아이템 리턴
+        return "shoes";
     }
 
+    @PostMapping("/complete")
+    public String completePayment(@RequestBody CompletePaymentRequest request) {
+        // 결제 검증 로직
+        return "결제 처리됨: " + request.getPaymentId();
+    }
 
-    @GetMapping("/fail")
-    public String paymentFail(HttpServletRequest request, Model model) {
-        String failCode = request.getParameter("code");
-        String failMessage = request.getParameter("message");
+    // 내부 클래스 예시
+    public static class CompletePaymentRequest {
+        private String paymentId;
 
-        model.addAttribute("code", failCode);
-        model.addAttribute("message", failMessage);
-
-        log.error("Payment failed: code={}, message={}", failCode, failMessage);
-        return "/fail";
+        public String getPaymentId() {
+            return paymentId;
+        }
+        public void setPaymentId(String paymentId) {
+            this.paymentId = paymentId;
+        }
     }
 }

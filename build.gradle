@@ -84,6 +84,9 @@ dependencies {
 
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
 
+	// port one
+	implementation("io.portone:server-sdk:0.19.2")
+
 }
 
 tasks.named('test') {
