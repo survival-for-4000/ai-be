@@ -35,7 +35,10 @@ public class FakeNetwork implements Network {
     }
 
     @Override
-    public boolean censorPrompt(String prompt) {return true;};
+    public boolean censorPrompt(String prompt) {return false;};
+
+    @Override
+    public boolean censorSoftPrompt(String prompt) {return false;};
 
     @Override
     public String createImage(Long taskId, String checkpoint, String lora, String prompt, String negativePrompt, int width, int height, String webhook) {
