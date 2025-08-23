@@ -35,10 +35,12 @@ public class FakeNetwork implements Network {
     }
 
     @Override
-    public boolean censorPrompt(String prompt) {return false;};
+    public boolean censorPrompt(String prompt) {return false;}
 
     @Override
-    public boolean censorSoftPrompt(String prompt) {return false;};
+    public boolean censorSoftPrompt(String prompt){
+        return false;
+    }
 
     @Override
     public String createImage(Long taskId, String checkpoint, String lora, String prompt, String negativePrompt, int width, int height, String webhook) {
@@ -64,6 +66,11 @@ public class FakeNetwork implements Network {
     @Override
     public String createI2VVideo(Long taskId, String prompt, String url, int width, int height, int numFrames , String webhook) {
         return String.format("{\"status\":\"ok\",\"type\":\"video\",\"task_id\":%d}", taskId);
+    }
+
+    @Override
+    public String createI2I(Long taskId, String prompt, String imageUrl, String webhook){
+        return String.format("{\"status\":\"ok\",\"type\":\"img2img\",\"task_id\":%d}", taskId);
     }
 
 }
