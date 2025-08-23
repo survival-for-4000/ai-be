@@ -19,16 +19,16 @@ public interface ImageTaskRepository {
     
     Slice<ImageTask> findByMemberAndImageUrlIsNull(Member creator, PageRequest pageRequest);
 
-    boolean existsByMemberAndCreatedAtGreaterThan(Member creator, LocalDateTime createdAt);
+    boolean existsByMemberAndCreatedAtGreaterThanAndImageUrlIsNotNull(Member creator, LocalDateTime createdAt);
     
     boolean existsByMemberAndCreatedAtGreaterThanAndImageUrlIsNull(Member creator, LocalDateTime createdAt);
 
-    boolean existsByMemberAndCreatedAtLessThan(Member creator, LocalDateTime createdAt);
+    boolean existsByMemberAndCreatedAtLessThanAndImageUrlIsNotNull(Member creator, LocalDateTime createdAt);
     
     boolean existsByMemberAndCreatedAtLessThanAndImageUrlIsNull(Member creator, LocalDateTime createdAt);
 
     ImageTask save(ImageTask imageTask);
-
+    
     Slice<ImageTask> findCreatedAfterAndImageUrlIsNull(Member member, LocalDateTime createdAt, Pageable pageable);
     Slice<ImageTask> findCreatedBeforeAndImageUrlIsNull(Member member, LocalDateTime createdAt, Pageable pageable);
     

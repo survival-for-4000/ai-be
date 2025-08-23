@@ -47,8 +47,8 @@ public class ImageTaskRepositoryImpl implements ImageTaskRepository {
     };
 
     @Override
-    public boolean existsByMemberAndCreatedAtGreaterThan(Member creator, LocalDateTime createdAt){
-        return jpaRepository.existsByMemberAndCreatedAtGreaterThan(MemberEntity.from(creator), createdAt);
+    public boolean existsByMemberAndCreatedAtGreaterThanAndImageUrlIsNotNull(Member creator, LocalDateTime createdAt){
+        return jpaRepository.existsByMemberAndCreatedAtGreaterThanAndImageUrlIsNotNull(MemberEntity.from(creator), createdAt);
     };
 
     @Override
@@ -57,8 +57,8 @@ public class ImageTaskRepositoryImpl implements ImageTaskRepository {
     };
 
     @Override
-    public boolean existsByMemberAndCreatedAtLessThan(Member creator, LocalDateTime createdAt){
-        return jpaRepository.existsByMemberAndCreatedAtLessThan(MemberEntity.from(creator), createdAt);
+    public boolean existsByMemberAndCreatedAtLessThanAndImageUrlIsNotNull(Member creator, LocalDateTime createdAt){
+        return jpaRepository.existsByMemberAndCreatedAtLessThanAndImageUrlIsNotNull(MemberEntity.from(creator), createdAt);
     };
 
     @Override
