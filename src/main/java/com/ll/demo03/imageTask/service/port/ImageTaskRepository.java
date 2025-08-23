@@ -16,15 +16,21 @@ public interface ImageTaskRepository {
     void deleteByMemberId(Long memberId);
 
     Slice<ImageTask> findByMember(Member creator, PageRequest pageRequest);
+    
+    Slice<ImageTask> findByMemberAndImageUrlIsNull(Member creator, PageRequest pageRequest);
 
     boolean existsByMemberAndCreatedAtGreaterThan(Member creator, LocalDateTime createdAt);
+    
+    boolean existsByMemberAndCreatedAtGreaterThanAndImageUrlIsNull(Member creator, LocalDateTime createdAt);
 
     boolean existsByMemberAndCreatedAtLessThan(Member creator, LocalDateTime createdAt);
+    
+    boolean existsByMemberAndCreatedAtLessThanAndImageUrlIsNull(Member creator, LocalDateTime createdAt);
 
     ImageTask save(ImageTask imageTask);
 
-    Slice<ImageTask> findCreatedAfter(Member member, LocalDateTime createdAt, Pageable pageable);
-    Slice<ImageTask> findCreatedBefore(Member member, LocalDateTime createdAt, Pageable pageable);
+    Slice<ImageTask> findCreatedAfterAndImageUrlIsNull(Member member, LocalDateTime createdAt, Pageable pageable);
+    Slice<ImageTask> findCreatedBeforeAndImageUrlIsNull(Member member, LocalDateTime createdAt, Pageable pageable);
     
     Slice<ImageTask> findByMemberAndImageUrlIsNotNull(Member member, PageRequest pageRequest);
     Slice<ImageTask> findCreatedAfterAndImageUrlIsNotNull(Member member, LocalDateTime createdAt, Pageable pageable);
